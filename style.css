@@ -1,0 +1,292 @@
+/* Background and overall body styling */
+body {
+    background: #7df0fa;
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Container styling */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    margin-top: 40px; /* Space between 'Insert Coins' and 'Products' */
+}
+
+/* Insert Coins Section Styling */
+.insert-coins-section {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 30px; /* Increased padding */
+    text-align: center;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px; /* Increase space below 'Insert Coins' section */
+    max-width: 500px; /* Increased width */
+    margin: 0 auto 40px; /* Centered and added space at the bottom */
+    border: 2px solid #00CCDD; /* Adding a border color */
+}
+
+/* Header inside Insert Coins Section */
+.insert-coins-section h4 {
+    font-size: 1.8rem; /* Increased font size */
+    color: #2c3e50;
+    margin-bottom: 20px;
+    font-weight: 700; /* Bold header */
+    letter-spacing: 0.5px;
+}
+
+/* Coin Input Section Styling */
+.coin-input {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+/* Coin Input Field Styling */
+.coin-input input {
+    width: 150px; /* Increased width */
+    padding: 12px;
+    font-size: 1.1rem;
+    border-radius: 30px;
+    border: 1px solid #95a5a6;
+    text-align: center;
+    color: #2c3e50;
+    background-color: #f0f4f8; /* Light background for input */
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Insert Button Styling */
+.insert-btn {
+    background-color: #00CCDD;
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    font-family: 'Montserrat', sans-serif;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Add shadow for button */
+}
+
+.insert-btn:hover {
+    background-color: #8ad8b4;
+}
+
+/* Balance Display Styling */
+.balance-info {
+    font-size: 1.3rem; /* Increased font size */
+    color: #3498db;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+#balance {
+    font-size: 1.7rem; /* Increased font size */
+    color: #e74c3c; /* Bright Red for emphasis */
+    margin-top: 10px;
+}
+
+/* New Message Section */
+#message {
+    font-size: 1.2rem;
+    color: #e74c3c; /* Red color for errors */
+    font-weight: 600;
+    margin-top: 10px; /* Spacing from other elements */
+    display: block; /* Ensure it displays on a new line */
+}
+
+/* New Cart Section */
+#cart {
+    font-size: 1.2rem;
+    color: #27ae60; /* Green color for successful actions */
+    font-weight: 600;
+    margin-top: 10px; /* Spacing from other elements */
+}
+
+/* Process Purchase Button */
+#process-purchase {
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    font-family: 'Montserrat', sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+#process-purchase:hover {
+    background-color: #27ae60;
+}
+
+/* Add spacing between sections */
+.coin-input,
+.balance-info,
+#cart {
+    margin-bottom: 15px; /* Ensure proper spacing between elements */
+}
+
+/* Balance Display Styling */
+.balance-info {
+    font-size: 1.2rem;
+    color: #3498db;
+    font-weight: 600;
+    margin-top: 10px; /* Add margin-top to separate from input */
+}
+
+#balance {
+    font-size: 1.5rem;
+    color: #e74c3c; /* Bright Red for emphasis */
+}
+
+/* Add spacing between sections */
+.coin-input,
+.balance-info {
+    margin-bottom: 15px; /* Ensure proper spacing between elements */
+}
+
+
+/* Balance Display Styling */
+.balance-info {
+    font-size: 1.2rem;
+    color: #3498db;
+    font-weight: 600;
+}
+
+#balance {
+    font-size: 1.5rem;
+    color: #e74c3c; /* Bright Red for emphasis */
+}
+
+/* Product Card styling */
+.product-card {
+    background-color: #295F98;
+    color: #333333;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    text-align: center;
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 30px;
+}
+/* More specific rule for the product name */
+.product-card h5 {
+    color: #ffffff !important; /* Ensure white color takes precedence */
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+
+.product-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    background-color: #ffffff; 
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Text styles */
+.card-body h5 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    color: #2c3e50; 
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.card-body p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    color: #ffffff; 
+    font-weight: 500;
+}
+
+/* Button styling */
+.select-btn {
+    background-color: #00CCDD; 
+    color: #fff;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.select-btn:hover {
+    background-color:  #8ad8b4; 
+}
+/* Reset button styling */
+#reset-cart {
+    background-color: #f44336; /* Red background color */
+    color: white; /* White text color */
+    border: none; /* Remove default border */
+    padding: 10px 20px; /* Add padding */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Align with other buttons */
+    font-size: 16px; /* Adjust font size */
+    margin: 10px; /* Add margin around button */
+    cursor: pointer; /* Change cursor to pointer */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+#reset-cart:hover {
+    background-color: #d32f2f; /* Darker red on hover */
+}
+
+
+
+/* General responsive design */
+@media (max-width: 768px) {
+    .product-card img {
+        height: 150px;
+    }
+
+    .card-body h5 {
+        font-size: 1.1rem;
+    }
+
+    .card-body p {
+        font-size: 0.9rem;
+    }
+
+    .select-btn {
+        padding: 8px 20px;
+        font-size: 0.9rem;
+    }
+}
+
+/* Responsive design for small devices */
+@media (max-width: 576px) {
+    .product-card img {
+        height: 130px;
+    }
+
+    .card-body h5 {
+        font-size: 1rem;
+    }
+
+    .card-body p {
+        font-size: 0.85rem;
+    }
+
+    .select-btn {
+        padding: 7px 18px;
+        font-size: 0.85rem;
+    }
+}
